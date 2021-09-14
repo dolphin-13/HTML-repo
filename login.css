@@ -6,3 +6,26 @@ label {
   .div-pad {
     margin-top: 10px;
   }
+
+  #clear-form {
+    background-color: yellow;
+  }
+
+  #submit {
+    background-color: #6666FF;
+    color: #FFFFFF;
+  }
+
+  input[type='button'] {
+    padding: 5px;
+  }
+/* select all inputs that have a value which contains the letter 'm'*/
+/*  input[value*='m']{
+    padding: 5px;
+  }
+/* select all inputs that have a value which starts with capital letter 'C'*/
+/*  input[value^='C']{
+    padding: 5px;
+  }
+  */
+  
