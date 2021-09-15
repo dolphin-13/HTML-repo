@@ -1,5 +1,23 @@
+body {
+    margin: 0px;
+    font-family: Arial;
+}
 .section-1 {
 background-color: blue;
+color: white;
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+input [type='button'] {
+    padding: 5px 20px;
+}
+a:visited {
+    color: white;   
+}
+a:hover {
+    color: #999999;
 }
 .section-2 {
 
