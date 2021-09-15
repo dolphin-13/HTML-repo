@@ -1,27 +1,35 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>Example Login Page</title>
-    <link rel="stylesheet" type="text/css" href="./login.css" />
-    <link rel="stylesheet" type="text/css" href="./main.css" />
-  </head>
-  <body>
-    <div class="container">
+
+<head>
+  <title>Example Login Page</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="./login.css" />
+  <link rel="stylesheet" type="text/css" href="./main.css" />
+</head>
+
+<body>
+  <div class="container">
     <div style="margin-bottom: 10px">
       Welcome to my <span style="font-weight: bold; text-decoration: underline;">login page</span>, please login below.
     </div>
+    <form method="get" action="./login.html">
+      <div>
+        <label>Username:</label>
+        <input id="username" name="username" type="text" />
+      </div>
 
-    <div>
-      <label>Username:</label> <input type="text"/>
-    </div>
-    
-    <div class="div-pad" >
-      <label>Password:</label> <input type="password"/>
-    </div>
+      <div class="div-pad">
+        <label>Password:</label>
+        <input id="password" name="password" type="password" />
+      </div>
 
-    <div class="div-pad" >
-    <input id="clear-form" type="button" value="Clear Form"/>
-    <input id="submit" type="button" value="Submit"/>
-    </div>
-  </div> 
-  </body>
+      <div class="div-pad">
+        <input id="clear-form" type="button" value="Clear Form" />
+        <input id="submit" type="submit" value="Submit" />
+      </div>
+    </form>
+  </div>
+</body>
+
 </html>
